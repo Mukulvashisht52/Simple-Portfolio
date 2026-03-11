@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mukul Vashisht | Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portfoliyo.css">
+    
+
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Mukul Vashisht </a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Mukul Vashisht</h1>
+            <h3>I'm a <span id="element"></span></h3>
+            <p>A passionate Full Stack MERN Developer from Palwal, Haryana. i have completed B.Tech in Computer Science with a focus on building innovative web and hardware solutions.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/mukul-vashisht-4b5984269" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/mukulvashisht" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:Mukulvashisht05@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="profile.jpg" alt="Mukul Vashisht">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="container">
+            <div class="box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>B.Tech - CSE</h3>
+                <p>Maharishi Markandeshwar Engineering College, Ambala (2021-2025)</p>
+                <p><strong>Aggregate: 7.71 CGPA</strong></p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-school"></i>
+                <h3>Senior Secondary</h3>
+                <p>HBSE Board (Class XII)</p>
+                <p><strong>Percentage: 92%</strong></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <div class="skills-content">
+                    <div class="progress">
+                        <h3>Frontend <span>90%</span></h3>
+                        <div class="bar"><span style="width: 90%;"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>Backend (Node/Express) <span>85%</span></h3>
+                        <div class="bar"><span style="width: 85%;"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>MongoDB <span>80%</span></h3>
+                        <div class="bar"><span style="width: 80%;"></span></div>
+                    </div>
+                    <div class="progress">
+                        <h3>React.js <span>88%</span></h3>
+                        <div class="bar"><span style="width: 88%;"></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Full Stack Developer', 'MERN Specialist', 'UI/UX Designer', 'Coder'],
+            typeSpeed: 60,
+            backSpeed: 40,
+            loop: true
+        });
+    </script>
+</body>
+</html>
